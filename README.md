@@ -1,4 +1,4 @@
-PrettyWireLogViewer [![Build Status](https://travis-ci.org/moznion/PrettyWireLogViewer.svg)](https://travis-ci.org/moznion/PrettyWireLogViewer)
+PrettyWireLogViewer 
 ===================
 
 Pretty viewer for wire logging of Apache [HttpClient](http://hc.apache.org/)
@@ -6,7 +6,8 @@ Pretty viewer for wire logging of Apache [HttpClient](http://hc.apache.org/)
 Getting Started
 ---------------
 
-[Sample is here](http://moznion.github.io/PrettyWireLogViewer/)
+
+[Sample is here](https://devitcn.github.io/PrettyWireLogViewer/)
 
 If you want to use on your local environment, please access to `index.html`.
 
@@ -22,19 +23,20 @@ Way to setup development environment:
 
 ```
 $ npm install
-$ ./node_modules/.bin/bower install
-$ ./node_modules/.bin/gulp bower
+$ npm run dev
+$ npm run build
 ```
 
 Author
 ------
 
-moznion <moznion@gmail.com>
+- Alex Lei 
 
-tokuhirom
+- moznion moznion@gmail.com
 
 License
 -------
 
 MIT
 
+[Folk From: github/moznion/PrettyWireLogViewer](https://github.com/moznion/PrettyWireLogViewer)
