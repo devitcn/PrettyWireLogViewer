@@ -185,7 +185,7 @@ export default {
 </script>
 <template>
   <header>
-    <h1>Apache Http Client wire log parser</h1>
+    <h1>Apache Http Client Wrie Log Parser</h1>
   </header>
   <div style="text-align: left;" ><input type="checkbox" v-model="form.wrap"> 折行</div>
   <main style="display: flex; flex-direction: row; min-height: 500px; align-items: stretch;">
@@ -195,7 +195,7 @@ export default {
     </fieldset>
     <fieldset style="flex-grow: 1; flex-basis: 50%;">
       <legend style="text-align:left">Parsed Text</legend>
-      <textarea :style="[form.wrap?'':'white-space: nowrap']" spellcheck="false" class="fill">{{parsedText}}</textarea>
+      <textarea :style="[form.wrap?'':'white-space: nowrap']" spellcheck="false" class="fill" readonly v-model="parsedText" ></textarea>
     </fieldset>
   </main>
   <footer></footer>
